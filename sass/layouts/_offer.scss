@@ -1,19 +1,26 @@
 .offer {
     padding-top: 94px;
     padding-bottom: 94px;
+    
+    @media screen and (max-width: 1199.98px) {
+        display: none;
+    }
 }
 
 .offer__title {
     display: flex;
+
 }
 
 .offer__item {
     margin-right: 30px;
     position: relative;
-}
 
-.offer__item:last-child {
-    margin: 0;
+    &:last-child {
+        margin: 0;
+    }
+
+
 }
 
 .offer__box {
